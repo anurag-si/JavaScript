@@ -1,0 +1,12 @@
+// Scalar values
+const answer= 42; //references assigned with const can not be changed
+const greeting = "Hello";
+
+//Arrays and Objects
+const numbers = [2,4,6]; //values can be changed
+const person ={
+  firstName: 'John',
+  lastName: 'Doe',
+};
+
+//variables defined with const are much better than those defined with let because you get a guarantee that value will not change
