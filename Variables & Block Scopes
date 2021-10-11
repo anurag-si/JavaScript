@@ -1,0 +1,29 @@
+
+{
+  // Block Scope
+}
+
+if(true){
+  //Block Scope
+}
+
+for(var i=1; i<= 10; i++){
+  //Block Scope
+}
+//variables defined in simple block scope can be used outside so we use let instead of var
+i
+
+for(let i=1; i<= 10; i++){
+  //Block Scope
+}
+i
+
+
+
+//function sum(a,b){
+  //Function Scope
+ // var result = a+b;
+//}
+//variables defined in function scope can not be leaked and used outside the scope
+
+//sum(4+3);
