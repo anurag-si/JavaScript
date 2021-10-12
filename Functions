@@ -1,0 +1,13 @@
+let me = {
+  name:"Anurag",
+  thisInArrow:() => {
+    console.log("My name is "+ this.name);
+    
+  },
+  thisInRegular(){
+    console.log("My name is "+ this.name);
+  }
+};
+
+me.thisInArrow();
+me.thisInRegular();
