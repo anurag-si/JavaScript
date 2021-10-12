@@ -1,0 +1,13 @@
+// we have an array with the name and surname
+let arr = ["John", "Smith"]
+
+// destructuring assignment
+// sets firstName = arr[0]
+// and surname = arr[1]
+let [firstName, surname] = arr;
+
+alert(firstName); // John
+alert(surname);  // Smith
+
+//When we pass array/object to a funtion it may not need as object/array as a whole. It may need individual pieces.
+//Destructuring assignment is a special syntax that allow us to "unpack" arrays or objedcct into a bunch of variable.
